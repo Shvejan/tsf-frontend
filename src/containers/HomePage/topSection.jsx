@@ -83,13 +83,18 @@ export function TopSection(props) {
           <LogoContainer>
             <BrandLogo
               logoSize={isMobile ? 40 : 65}
-              textSize={isMobile ? 35 : 55}
+              textSize={isMobile ? 25 : 45}
             />
             <Marginer direction="vertical" margin={8} />
-            <SloganText>Find the right specialist</SloganText>
+            <SloganText>Find the right Freelancer</SloganText>
             <SloganText>For the job</SloganText>
             <Marginer direction="vertical" margin={15} />
-            <Button>Join Now</Button>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSefpvrYR20tADTlrhm9E5U-bQgFB0L2j5IspApFfqhMalUqkw/viewform?usp=sf_link"
+              target="_blank"
+            >
+              <Button>Join Now</Button>
+            </a>
           </LogoContainer>
           {!isMobile && (
             <StandoutImage>

@@ -26,17 +26,16 @@ const AccessibilityContainer = styled.div`
   align-items: center;
 `;
 
-const AnchorLink = styled(Link)`
-  font-size: 12px;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
+const AnchorLink = styled.div`
+  border: none;
   outline: none;
+  color: #fff;
+  padding: 6px 1em;
+  font-size: ${({ size }) => (size ? size + "px" : "18px")};
+  font-weight: 600;
+  border-radius: 3px;
+  cursor: pointer;
   transition: all 200ms ease-in-out;
-
-  &:hover {
-    filter: contrast(0.6);
-  }
 `;
 
 const Seperator = styled.div`
@@ -54,15 +53,19 @@ export function Navbar(props) {
     <NavbarContainer useTransparent={useTransparent}>
       <BrandLogo />
       <AccessibilityContainer>
-        {!isMobile && <AnchorLink>Specialists Portal</AnchorLink>}
+        {!isMobile && (
+          <Link to="/searchfreelancers">
+            <AnchorLink>Search Freelancers</AnchorLink>
+          </Link>
+        )}
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         <Marginer direction="horizontal" margin={10} />
-        <Link to="/customer/access/signup">
-          <Button size={11}>Register</Button>
+        <Link to="/findwork">
+          <Button size={18}>Find Work</Button>
         </Link>
         <Marginer direction="horizontal" margin={8} />
-        <AnchorLink to="/customer/access/signin">Login</AnchorLink>
+        {/* <AnchorLink to="/customer/access/signin">Search Profiles</AnchorLink> */}
       </AccessibilityContainer>
     </NavbarContainer>
   );

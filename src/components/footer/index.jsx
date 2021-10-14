@@ -120,21 +120,20 @@ export function Footer(props) {
       <TopContainer>
         <ContentContainer>
           <Title>Categories</Title>
-          <FLink>Car Repair</FLink>
-          <FLink>Carpentry</FLink>
-          <FLink>Landscaping</FLink>
-          <FLink>Cleaning</FLink>
-          <FLink>Home Improvement</FLink>
-          <FLink>Demolition</FLink>
-          <FLink>Management</FLink>
+          <FLink>Web Development</FLink>
+          <FLink>App Development</FLink>
+          <FLink>Photography</FLink>
+          <FLink>Logo Designing</FLink>
+          <FLink>Data Analytics</FLink>
+          <FLink>Machine Learning</FLink>
           <FLink>Others</FLink>
         </ContentContainer>
         <ContentContainer>
           <Title>Access</Title>
           <FLink>Login</FLink>
           <FLink>Join Us</FLink>
-          <FLink>Login as Specialist</FLink>
-          <FLink>Become a Specialist</FLink>
+          <FLink>Login as Freelancer</FLink>
+          <FLink>Become a Client</FLink>
         </ContentContainer>
       </TopContainer>
       <BottomContainer>

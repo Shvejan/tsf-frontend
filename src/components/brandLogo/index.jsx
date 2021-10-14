@@ -1,9 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-import LogoImg from "../../images/logos/logo.png";
+import LogoImg from "../../images/logos/logo.jpeg";
 import { Link } from "react-router-dom";
-
+import { deviceSize } from "../responsive";
+import { useMediaQuery } from "react-responsive";
 const BrandLogoContainer = styled.div`
   display: flex;
   align-items: center;
@@ -33,6 +34,7 @@ const StyledLink = styled(Link)`
 
 export function BrandLogo(props) {
   const { logoSize, textSize, color, hideLogo } = props;
+  const isMobile = useMediaQuery({ maxWidth: deviceSize.mobile });
 
   return (
     <BrandLogoContainer>
@@ -44,9 +46,11 @@ export function BrandLogo(props) {
         </Link>
       )}
       <StyledLink to="/">
-        <LogoTitle size={textSize} color={color}>
-          Servycing
-        </LogoTitle>
+        {!isMobile && (
+          <LogoTitle size={textSize} color={color}>
+            TechSavvyFreelancers
+          </LogoTitle>
+        )}
       </StyledLink>
     </BrandLogoContainer>
   );

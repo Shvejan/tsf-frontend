@@ -82,12 +82,12 @@ export function SpecialistAd(props) {
           />
           <Marginer direction="vertical" margin="1em" />
           <SloganContainer>
-            <Slogan>You’re a Specialist, and you </Slogan>
+            <Slogan>You’re a Freelancer, and you </Slogan>
             <Slogan>have an outstanding</Slogan>
             <Slogan>Service to offer?</Slogan>
           </SloganContainer>
           <Marginer direction="vertical" margin="0.8em" />
-          <Button size={15}>Join as Specialist</Button>
+          <Button size={15}>Join as Freelancer</Button>
         </SloganContainer>
         <StandoutImage>
           <img src={FarmingImg} alt="join-as-specialist" />
