@@ -11,7 +11,7 @@ export function Card(props) {
         {data.map(function (f, i) {
           return (
             <div className="col-md-3 p-3" key={i}>
-              <CardUI data={f} />
+              <CardUI data={f} id={i} />
             </div>
           );
         })}

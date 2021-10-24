@@ -90,7 +90,7 @@ export function TopSection(props) {
             <SloganText>For the job</SloganText>
             <Marginer direction="vertical" margin={15} />
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSefpvrYR20tADTlrhm9E5U-bQgFB0L2j5IspApFfqhMalUqkw/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdu6TtvOAeCTJkjs5JDAQMKbwPkxS32_arILARECnGH16tg7A/viewform"
               target="_blank"
             >
               <Button>Join Now</Button>

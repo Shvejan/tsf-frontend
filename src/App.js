@@ -5,7 +5,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { CustomerAccessPage } from "./containers/customerAccessPage";
 import { findWork } from "./containers/findWork";
+import { Profiles } from "./containers/profiles";
 import { SearchFreelancers } from "./containers/searchFreelancers";
+
 function App() {
   return (
     <div className="App">
@@ -24,6 +26,7 @@ function App() {
             exact
             component={SearchFreelancers}
           />
+          <Route path="/profiles/:id" exact component={Profiles} />
         </Switch>
       </Router>
     </div>
