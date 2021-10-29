@@ -18,8 +18,7 @@ export function SearchFreelancers(props) {
       <InnerPageContainer>
         <Marginer direction="vertical" margin="2em" />
         <h1>Some of our best freelancers</h1>
-        <Marginer direction="vertical" margin="5em" />
-        <Card data={user_data} type="profiles" />
+        <Card data={user_data} num="3" type="profiles" />
         <Marginer direction="vertical" margin="5em" />
       </InnerPageContainer>
       <Footer />

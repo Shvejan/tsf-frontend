@@ -13,7 +13,7 @@ export function About(props) {
   return (
     <PageContainer>
       <Navbar />
-      <InnerPageContainer>
+      <InnerPageContainer className="animated animatedFadeInUp fadeInUp back">
         <Marginer direction="vertical" margin="2em" />
         <h1>About Us</h1>
         {/* <Marginer direction="vertical" margin="1em" /> */}

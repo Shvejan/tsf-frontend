@@ -6,20 +6,17 @@ export function CardUI(props) {
   const { data, id, type } = props;
 
   return (
-    <div
-      className=" card single-blog-area wow text-center fadeInUp"
-      data-wow-delay="300ms"
-    >
+    <div className="card animated animatedFadeInUp fadeInUp text-center">
       <div className="overflow">
         <img src={data.profPic} className="card-img-top image" />
       </div>
       <div className="card-body text-dark">
-        <h4 className="card-title">{data.name}</h4>
+        <h6 className="card-title">{data.name}</h6>
         <p className="card-text text-secondary">{data.title}</p>
         {type != 0 && (
-          <Link to={type + "/" + id} className="btn btn-outline-success">
+          <a href={data.resume} className="btn btn-outline-success">
             View
-          </Link>
+          </a>
         )}
       </div>
     </div>

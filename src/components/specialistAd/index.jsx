@@ -76,10 +76,6 @@ export function SpecialistAd(props) {
     <SpecialistAdContainer>
       <ContentContainer>
         <SloganContainer>
-          <BrandLogo
-            logoSize={isMobile ? 33 : 40}
-            textSize={isMobile ? 28 : 35}
-          />
           <Marginer direction="vertical" margin="1em" />
           <SloganContainer>
             <Slogan>You’re a Freelancer, and you </Slogan>

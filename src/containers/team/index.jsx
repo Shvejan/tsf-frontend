@@ -35,7 +35,7 @@ export function Team(props) {
         <Marginer direction="vertical" margin="2em" />
         <h1>Our Team</h1>
         {/* <Marginer direction="vertical" margin="1em" /> */}
-        <Card data={user_data} type={0} />
+        <Card data={user_data} num="4" type={0} />
         <Marginer direction="vertical" margin="5em" />
       </InnerPageContainer>
       <Footer />

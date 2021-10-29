@@ -79,11 +79,11 @@ export function TopSection(props) {
     <TopSectionContainer>
       <BackgroundFilter>
         {children}
-        <TopSectionInnerContainer>
+        <TopSectionInnerContainer className="animated animatedFadeInUp fadeInUp text-center">
           <LogoContainer>
             <BrandLogo
-              logoSize={isMobile ? 40 : 65}
-              textSize={isMobile ? 25 : 45}
+              logoSize={isMobile ? 40 : 150}
+              textSize={isMobile ? 25 : 100}
             />
             <Marginer direction="vertical" margin={8} />
             <SloganText>Find the right Freelancer</SloganText>

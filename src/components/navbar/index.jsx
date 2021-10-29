@@ -36,6 +36,7 @@ const AnchorLink = styled.div`
   border-radius: 3px;
   cursor: pointer;
   transition: all 200ms ease-in-out;
+  text-decoration: none;
 `;
 
 const Seperator = styled.div`
@@ -55,11 +56,11 @@ export function Navbar(props) {
       <AccessibilityContainer>
         {
           <Link to="/searchfreelancers">
-            <AnchorLink>Search Freelancers</AnchorLink>
+            <AnchorLink>Search</AnchorLink>
           </Link>
         }
         <Link to="/team">
-          <AnchorLink>Our Team</AnchorLink>
+          <AnchorLink>Team</AnchorLink>
         </Link>
         <Link to="/about">
           <AnchorLink>About</AnchorLink>
@@ -67,9 +68,12 @@ export function Navbar(props) {
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         <Marginer direction="horizontal" margin={10} />
-        <Link to="/findwork">
-          <Button size={18}>Find Work</Button>
-        </Link>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdu6TtvOAeCTJkjs5JDAQMKbwPkxS32_arILARECnGH16tg7A/viewform"
+          target="_blank"
+        >
+          <Button size={18}>Join!</Button>
+        </a>
         <Marginer direction="horizontal" margin={8} />
         {/* <AnchorLink to="/customer/access/signin">Search Profiles</AnchorLink> */}
       </AccessibilityContainer>
