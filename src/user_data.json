@@ -1,0 +1,175 @@
+[
+  
+  {
+    "name": " Sai Shravanth",
+    "title": "Robotics and Automation",
+    "profPic":"/images/freelancer-pics/shravanth.png",
+    "rating": "4.2",
+    "total_jobs": "---",
+    "total_hrs_worked": "---",
+    "languages": ["English", "Telugu", "Hindi"],
+    "education": "Sreenidhi Institute of Science and Technology",
+    "disc": "I am an Electronics and Communication engineer with strong technical skills in Electronics and IT industry.",
+    "jobs_on_tsf": [
+      {
+        "company": "Wipro",
+        "title": " App Development Project",
+        "rating": "5",
+        "feedback":
+          "the work is on point, he has put a lot of efforts to deliver the work on time",
+        "no_of_hrs": "25"
+      },
+      {
+        "company": "Infosys",
+        "title": " E-Commerce site Project",
+        "rating": "4",
+        "feedback":
+          "the work is very impressive, he has met all the deadlines given and completed the project with no issues",
+        "no_of_hrs": "50"
+      }
+    ],
+    "skills": ["Data Science", "Containerisation", "Embedded Systems"],
+    "projects": [
+      {
+        "title": "Lane detection for autonomous cars",
+        "image": "/images/projects/center_2021_07_04_21_24_41_876.jpg",
+        "disc": "this project is about a self driving car where i have build and trained a machine learning model which predicts the correct steering angle of the car based on the enveronment"
+      },
+      {
+        "title": "Smart Shoe Organiser",
+        "image": "/images/projects/p1.png",
+        "disc": "this project is about a self driving car where i have build and trained a machine learning model which predicts the correct steering angle of the car based on the enveronment"
+      }
+    ],
+    "certificates": []
+  },
+    {
+    "name": "Madhan",
+    "title": "Data Scientist",
+    "profPic":"/images/freelancer-pics/madhan.png",
+    "rating": "4.2",
+    "total_jobs": "---",
+    "total_hrs_worked": "---",
+    "languages": ["English", "Telugu", "Hindi"],
+    "education": "Sreenidhi Institute of Science and Technology",
+    "disc": "Undergraduate",
+    "jobs_on_tsf": [
+      {
+        "company": "Wipro",
+        "title": " App Development Project",
+        "rating": "5",
+        "feedback":
+          "the work is on point, he has put a lot of efforts to deliver the work on time",
+        "no_of_hrs": "25"
+      },
+      {
+        "company": "Infosys",
+        "title": " E-Commerce site Project",
+        "rating": "4",
+        "feedback":
+          "the work is very impressive, he has met all the deadlines given and completed the project with no issues",
+        "no_of_hrs": "50"
+      }
+    ],
+    "skills": ["Data Science", "Python", "C"],
+    "projects": [
+      {
+        "title": "Lane detection for autonomous cars",
+        "image": "/images/projects/center_2021_07_04_21_24_41_876.jpg",
+        "disc": "this project is about a self driving car where i have build and trained a machine learning model which predicts the correct steering angle of the car based on the enveronment"
+      },
+      {
+        "title": "Smart Shoe Organiser",
+        "image": "/images/projects/p1.png",
+        "disc": "this project is about a self driving car where i have build and trained a machine learning model which predicts the correct steering angle of the car based on the enveronment"
+      }
+    ],
+    "certificates": []
+  },
+  {
+    "name": "M Shvejan Shashank",
+    "title": "Web Developer",
+    "profPic":"/images/freelancer-pics/Shvejan.png",
+    "rating": "4.2",
+    "total_jobs": "---",
+    "total_hrs_worked": "---",
+    "languages": ["English", "Telugu", "Hindi"],
+    "education": "Sreenidhi Institute of Science and Technology",
+    "disc": "I'm an enthusiastic and hard working web developer with more than 3 years of experience in the industry. i have built and deployed hundreds of websites for multiple clients across the world",
+    "jobs_on_tsf": [
+      {
+        "company": "Wipro",
+        "title": " App Development Project",
+        "rating": "5",
+        "feedback":
+          "the work is on point, he has put a lot of efforts to deliver the work on time",
+        "no_of_hrs": "25"
+      },
+      {
+        "company": "Infosys",
+        "title": " E-Commerce site Project",
+        "rating": "4",
+        "feedback":
+          "the work is very impressive, he has met all the deadlines given and completed the project with no issues",
+        "no_of_hrs": "50"
+      }
+    ],
+    "skills": ["c", "c++", "java", "python"],
+    "projects": [
+      {
+        "title": "Lane detection for autonomous cars",
+        "image": "/images/projects/center_2021_07_04_21_24_41_876.jpg",
+        "disc": "this project is about a self driving car where i have build and trained a machine learning model which predicts the correct steering angle of the car based on the enveronment"
+      },
+      {
+        "title": "Smart Shoe Organiser",
+        "image": "/images/projects/p1.png",
+        "disc": "this project is about a self driving car where i have build and trained a machine learning model which predicts the correct steering angle of the car based on the enveronment"
+      }
+    ],
+    "certificates": [{ "title": "NRCT", "image": "/images/certificates/thailand.jpg" }]
+  },
+  {
+    "name": "Anil Mamidi",
+    "title": "Web Developer",
+    "profPic":"/images/freelancer-pics/2.jpg",
+    "rating": "4.2",
+    "total_jobs": "---",
+    "total_hrs_worked": "---",
+    "languages": ["English", "Telugu", "Hindi"],
+    "education": "Sreenidhi Institute of Science and Technology",
+    "disc": "I`m very passionate about entrepreneurship and had expertise in building dynamic websites and mobile applications.",
+    "jobs_on_tsf": [
+      {
+        "company": "Wipro",
+        "title": " App Development Project",
+        "rating": "5",
+        "feedback":
+          "the work is on point, he has put a lot of efforts to deliver the work on time",
+        "no_of_hrs": "25"
+      },
+      {
+        "company": "Infosys",
+        "title": " E-Commerce site Project",
+        "rating": "4",
+        "feedback":
+          "the work is very impressive, he has met all the deadlines given and completed the project with no issues",
+        "no_of_hrs": "50"
+      }
+    ],
+    "skills": ["Html", "Css", "Javascript", "Ajax", "JQuery", "C", "C++", "Java", "Python", "PHP"],
+    "projects": [
+      {
+        "title": "Ask ConectYu",
+        "image": "/images/projects/center_2021_07_04_21_24_41_876.jpg",
+        "disc": "It is an Social media online platform where students from same and different colleges can connect with each other and ask questions even they can answer questions by others on the platform."
+      },
+      {
+        "title": "Credit Management System",
+        "image": "/images/projects/p1.png",
+        "disc": "It is an online platform where people can create an account on it and send credits/money to each other."
+      }
+    ],
+    "certificates": []
+  }
+]

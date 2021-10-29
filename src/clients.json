@@ -1,0 +1,37 @@
+[{
+    "company":"Accenture",
+    "title":"Web Developer",
+    "disc":"We need an experienced web developer who is can design beatuiful and responsive websites",
+    "skills":["HTML","CSS","JavaScript","Bootstrap"],
+    "profPic":"/images/client-logo/1.svg"
+},{
+    "company":"Amazon",
+    "title":"Machine Learning Developer",
+    "disc":"We are looking for a freelancer who has good experience in solving complex ML problems with the latest algorithms",
+    "skills":["Python","Tensoflow","PyTorch","Numpy"],
+    "profPic":"/images/client-logo/2.png"
+},{
+    "company":"Infosys",
+    "title":"Web Developer",
+    "disc":"We need an experienced web developer who is can design beatuiful and responsive websites",
+    "skills":["HTML","CSS","JavaScript","Bootstrap"],
+    "profPic":"/images/client-logo/3.png"
+},{
+    "company":"Swiggy",
+    "title":"App Developer",
+    "disc":"A freelancer with solid knowledge on android and ios app development to improve the performance of our existing app",
+    "skills":["Android","Java"],
+    "profPic":"/images/client-logo/4.png"
+},{
+    "company":"TCS",
+    "title":"Web Developer",
+    "disc":"We need an experienced web developer who is can design beatuiful and responsive websites",
+    "skills":["HTML","CSS","JavaScript","Bootstrap"],
+    "profPic":"/images/client-logo/5.jpeg"
+},{
+    "company":"Uber",
+    "title":"App Developer",
+    "disc":"A freelancer with solid knowledge on android and ios app development to improve the performance of our existing app",
+    "skills":["Android","Java"],
+    "profPic":"/images/client-logo/6.png"
+}]

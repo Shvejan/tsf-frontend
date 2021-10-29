@@ -7,7 +7,9 @@ import { CustomerAccessPage } from "./containers/customerAccessPage";
 import { findWork } from "./containers/findWork";
 import { Profiles } from "./containers/profiles";
 import { SearchFreelancers } from "./containers/searchFreelancers";
-
+import { WorkDisc } from "./containers/workDiscription";
+import { Team } from "./containers/team";
+import { About } from "./containers/about";
 function App() {
   return (
     <div className="App">
@@ -27,6 +29,9 @@ function App() {
             component={SearchFreelancers}
           />
           <Route path="/profiles/:id" exact component={Profiles} />
+          <Route path="/workdisc/:id" exact component={WorkDisc} />
+          <Route path="/team" exact component={Team} />
+          <Route path="/about" exact component={About} />
         </Switch>
       </Router>
     </div>

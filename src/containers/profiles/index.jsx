@@ -3,7 +3,7 @@ import { Footer } from "../../components/footer";
 import { Navbar } from "../../components/navbar";
 import "./stylesheet.css";
 import { useParams } from "react-router-dom";
-import user_data from "./user_data.json";
+import user_data from "../../user_data.json";
 import Profpic from "../../images/freelancer-pics/Shvejan.jpg";
 
 const projectData = user_data;
@@ -25,7 +25,7 @@ export function Profiles(props) {
           <div className="col-sm-8 col-xs-12 col-lg-8">
             <div>
               <div className="panel1" id="toppnlhead">
-                <img src={Profpic} id="prfpic" />
+                <img src={projectData[id]["profPic"]} id="prfpic" />
                 <span id="username">{projectData[id]["name"]}</span>
                 <br />
                 <br />
@@ -119,9 +119,12 @@ export function Profiles(props) {
                     </label>
                     <br />
                     <img
-                      src={require("../../images/freelancer-pics/Shvejan.jpg")}
+                      src={j["image"]}
+                      alt="project image"
+                      style={{ height: "180px" }}
                     />
-                    <img src="{j['image']}" alt="project image" />
+                    <br />
+                    <br />
                     <h6>{j["disc"]}</h6>
                   </div>
                 ))}
@@ -141,7 +144,11 @@ export function Profiles(props) {
                       <strong>{j["title"]}</strong>
                     </label>
                     <br />
-                    <img src="{j['image']}" alt="project image" />
+                    <img
+                      src={j["image"]}
+                      alt="project image"
+                      style={{ height: "250px" }}
+                    />
                   </div>
                 ))}
               </div>

@@ -6,20 +6,36 @@ import {
   InnerPageContainer,
   PageContainer,
 } from "../../components/pageContainer";
-
-import user_data from "../../user_data.json";
-
+import { slide as Menu } from "react-burger-menu";
 import { Marginer } from "../../components/marginer";
 
-export function SearchFreelancers(props) {
+const user_data = [
+  {
+    name: "Dr.Ameet Chawan",
+    title: "",
+    profPic: "/images/team/ameet.jpeg",
+  },
+  {
+    name: "M Shvejan Shashank",
+    title: "",
+    profPic: "/images/team/Shvejan.png",
+  },
+  {
+    name: "Anil Mamidi",
+    title: "",
+    profPic: "/images/team/2.png",
+  },
+];
+
+export function Team(props) {
   return (
     <PageContainer>
       <Navbar />
       <InnerPageContainer>
         <Marginer direction="vertical" margin="2em" />
-        <h1>Some of our best freelancers</h1>
-        <Marginer direction="vertical" margin="5em" />
-        <Card data={user_data} type="profiles" />
+        <h1>Our Team</h1>
+        {/* <Marginer direction="vertical" margin="1em" /> */}
+        <Card data={user_data} type={0} />
         <Marginer direction="vertical" margin="5em" />
       </InnerPageContainer>
       <Footer />

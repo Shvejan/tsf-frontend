@@ -14,44 +14,8 @@ import {
   PageContainer,
 } from "../../components/pageContainer";
 import { Marginer } from "../../components/marginer";
-const projectData = [
-  {
-    name: "Accenture",
-    photo: image1,
-    desc: "We are looking for a professional freelancer to build an E-Commerce website",
-    type: "Apply",
-  },
-  {
-    name: "Amazon",
-    photo: image2,
-    type: "Apply",
-    desc: "Need a Machine Learning expert for data analytics project",
-  },
-  {
-    name: "Infosys",
-    type: "Apply",
-    photo: image3,
-    desc: "We are looking for a web developer to build a beautiful and responsive website",
-  },
-  {
-    name: "Swiggy",
-    type: "Apply",
-    photo: image4,
-    desc: "Android app developer needed to increase the performance of our existing app",
-  },
-  {
-    name: "TCS",
-    photo: image5,
-    type: "Apply",
-    desc: "We need a creative logo designer to design the logo of our new product!",
-  },
-  {
-    name: "Uber",
-    type: "Apply",
-    photo: image6,
-    desc: "An IOS app developer needed optimize our app with the latest IOS updates",
-  },
-];
+import projectData from "../../clients.json";
+
 export function findWork(props) {
   return (
     <PageContainer>
@@ -60,7 +24,7 @@ export function findWork(props) {
         <Marginer direction="vertical" margin="2em" />
         <h1>Available projects from our top clients</h1>
         <Marginer direction="vertical" margin="5em" />
-        <Card data={projectData} />
+        <Card data={projectData} type="workdisc" />
 
         <Marginer direction="vertical" margin="5em" />
       </InnerPageContainer>

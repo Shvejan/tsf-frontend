@@ -53,11 +53,17 @@ export function Navbar(props) {
     <NavbarContainer useTransparent={useTransparent}>
       <BrandLogo />
       <AccessibilityContainer>
-        {!isMobile && (
+        {
           <Link to="/searchfreelancers">
             <AnchorLink>Search Freelancers</AnchorLink>
           </Link>
-        )}
+        }
+        <Link to="/team">
+          <AnchorLink>Our Team</AnchorLink>
+        </Link>
+        <Link to="/about">
+          <AnchorLink>About</AnchorLink>
+        </Link>
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         <Marginer direction="horizontal" margin={10} />
