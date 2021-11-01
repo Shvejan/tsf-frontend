@@ -82,17 +82,14 @@ export function TopSection(props) {
         <TopSectionInnerContainer className="animated animatedFadeInUp fadeInUp text-center">
           <LogoContainer>
             <BrandLogo
-              logoSize={isMobile ? 40 : 150}
+              logoSize={isMobile ? 40 : 170}
               textSize={isMobile ? 25 : 100}
             />
             <Marginer direction="vertical" margin={8} />
             <SloganText>Find the right Freelancer</SloganText>
             <SloganText>For the job</SloganText>
             <Marginer direction="vertical" margin={15} />
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdu6TtvOAeCTJkjs5JDAQMKbwPkxS32_arILARECnGH16tg7A/viewform"
-              target="_blank"
-            >
+            <a href="https://forms.gle/gWknBYgbUXjrYs4u9" target="_blank">
               <Button>Join Now</Button>
             </a>
           </LogoContainer>

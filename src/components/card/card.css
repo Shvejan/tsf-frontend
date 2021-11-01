@@ -1,6 +1,53 @@
 .card:hover {
   background-color: rgb(238, 237, 237);
+  transition: 2s;
+  z-index: 2;
 }
 p {
   font-size: x-small;
+}
+/*entire container, keeps perspective */
+.wrapper,
+.card-front,
+.card-back {
+  width: 300px;
+  height: 200px;
+}
+.wrapper {
+  margin: 1em auto;
+  perspective: 1000;
+  margin-bottom: 150px;
+}
+/* Flip the pane when hovered */
+.wrapper:hover .flipper,
+.flip-container.hover .flipper {
+  transform: rotateY(180deg);
+}
+/* Flip speed and styling. */
+.flipper {
+  /*position: relative;*/
+  transition: 0.8s;
+  transform-style: preserve-3d;
+}
+/* Hide back of pane during swap */
+.card-front,
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  backface-visibility: hidden;
+  text-align: center;
+  box-sizing: border-box;
+}
+/* Front pane, placed above back */
+.card-front {
+  z-index: 2;
+  background: white;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background: primary-color;
+  color: white;
 }

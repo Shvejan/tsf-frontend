@@ -131,7 +131,7 @@ export function Footer(props) {
         <ContentContainer>
           <Title>Access</Title>
           <FLink>Login</FLink>
-          <FLink>Join Us</FLink>
+          <FLink href="https://forms.gle/gWknBYgbUXjrYs4u9">Join Us</FLink>
           <FLink>Login as Freelancer</FLink>
           <FLink>Become a Client</FLink>
         </ContentContainer>

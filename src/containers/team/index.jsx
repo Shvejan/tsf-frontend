@@ -11,6 +11,11 @@ import { Marginer } from "../../components/marginer";
 
 const user_data = [
   {
+    name: "Mr.K.Abhijit Rao",
+    title: "",
+    profPic: "/images/team/abijith.png",
+  },
+  {
     name: "Dr.Ameet Chawan",
     title: "",
     profPic: "/images/team/ameet.jpeg",
@@ -34,8 +39,8 @@ export function Team(props) {
       <InnerPageContainer>
         <Marginer direction="vertical" margin="2em" />
         <h1>Our Team</h1>
-        {/* <Marginer direction="vertical" margin="1em" /> */}
-        <Card data={user_data} num="4" type={0} />
+
+        <Card data={user_data} num="3" type={0} />
         <Marginer direction="vertical" margin="5em" />
       </InnerPageContainer>
       <Footer />

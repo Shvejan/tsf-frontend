@@ -10,8 +10,8 @@ const BrandLogoContainer = styled.div`
 `;
 
 const LogoImage = styled.div`
-  width: ${({ size }) => (size ? size + 120 + "px" : "9em")};
-  height: ${({ size }) => (size ? size + "px" : "5em")};
+  width: ${({ size }) => (size ? size + "px" : "3em")};
+  height: ${({ size }) => (size ? size + "px" : "3em")};
 
   img {
     width: 100%;
@@ -40,7 +40,7 @@ export function BrandLogo(props) {
       {!hideLogo && (
         <Link to="/">
           <LogoImage size={logoSize}>
-            <img src="/images/logo/white_logo.png" alt="Servycing logo" />
+            <img src="/images/logo/tsf.png" alt="Servycing logo" />
           </LogoImage>
         </Link>
       )}

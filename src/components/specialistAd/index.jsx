@@ -83,10 +83,7 @@ export function SpecialistAd(props) {
             <Slogan>Service to offer?</Slogan>
           </SloganContainer>
           <Marginer direction="vertical" margin="0.8em" />
-          <a
-            target="_blank"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSdu6TtvOAeCTJkjs5JDAQMKbwPkxS32_arILARECnGH16tg7A/viewform"
-          >
+          <a target="_blank" href="https://forms.gle/gWknBYgbUXjrYs4u9">
             <Button size={15}>Join as Freelancer</Button>
           </a>
         </SloganContainer>

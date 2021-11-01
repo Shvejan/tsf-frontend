@@ -36,6 +36,7 @@ export function About(props) {
                   creates more working opportunities and gets more flexibility
                   in connecting with the right talent with prominent skills.
                 </p>
+                <hr></hr>
                 <h3 class="missionlbl">
                   <strong>Mission</strong>
                 </h3>

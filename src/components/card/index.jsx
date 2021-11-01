@@ -6,7 +6,7 @@ export function Card(props) {
   const { data, type, num } = props;
 
   return (
-    <div className="container-fluid d-flex justify-content-center p-5 ">
+    <div className="container-fluid d-flex justify-content-center ">
       <div className="row ">
         {data.map(function (f, i) {
           return (

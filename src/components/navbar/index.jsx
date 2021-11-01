@@ -44,7 +44,15 @@ const Seperator = styled.div`
   width: 1px;
   background-color: #fff;
 `;
+const LogoImage = styled.div`
+  width: ${({ size }) => (size ? size + "px" : "3em")};
+  height: ${({ size }) => (size ? size + "px" : "3em")};
 
+  img {
+    width: 100%;
+    height: 100%;
+  }
+`;
 export function Navbar(props) {
   const { useTransparent } = props;
 
@@ -52,7 +60,11 @@ export function Navbar(props) {
 
   return (
     <NavbarContainer useTransparent={useTransparent}>
-      <BrandLogo />
+      <Link to="/">
+        <LogoImage>
+          <img src="/images/logo/stf (1).png" alt="Servycing logo" />
+        </LogoImage>
+      </Link>
       <AccessibilityContainer>
         {
           <Link to="/searchfreelancers">
@@ -68,10 +80,7 @@ export function Navbar(props) {
         {!isMobile && <Marginer direction="horizontal" margin={10} />}
         {!isMobile && <Seperator />}
         <Marginer direction="horizontal" margin={10} />
-        <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSdu6TtvOAeCTJkjs5JDAQMKbwPkxS32_arILARECnGH16tg7A/viewform"
-          target="_blank"
-        >
+        <a href="https://forms.gle/gWknBYgbUXjrYs4u9" target="_blank">
           <Button size={18}>Join!</Button>
         </a>
         <Marginer direction="horizontal" margin={8} />
