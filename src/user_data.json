@@ -6,6 +6,12 @@
     "profPic":"/images/freelancer-pics/madhan.png",
     "resume":"/resumes/Madhan Dasari.pdf"
     
+  },  {
+    "name": "B Sai Kumar",
+    "title": "Software Developer",
+    "profPic":"/images/freelancer-pics/saikumar.jpeg",
+    "resume":"/resumes/saikumar.pdf"
+    
   },
     {
     "name": "K Srikar",
@@ -14,6 +20,21 @@
     "resume":"/resumes/srikar.pdf"
     
   },
+   {
+    "name": "G Partha Sai",
+    "title": "Web developer",
+    "profPic":"/images/freelancer-pics/partha.png",
+    "resume":"/resumes/Pardhu_Resume - Partha Sai.pdf"
+    
+  },
+  {
+    "name": "Rohith Mahakala",
+    "title": "Python developer",
+    "profPic":"/images/freelancer-pics/Rohith.png",
+    "resume":"/resumes/M.Rohith's Resume jobs - Rohith Reddy Mahakala.pdf"
+    
+  },
+  
 
   {
     "name": "M Shvejan Shashank",
@@ -34,6 +55,13 @@
     "title": "Robotics",
     "profPic":"/images/freelancer-pics/shravanth.png",
     "resume":"/pdff.pdf"
+    
+  },
+  {
+    "name": "Nikhitha Enugula",
+    "title": "Web developer",
+    "profPic":"/images/freelancer-pics/Nikhitha Enugula.png",
+    "resume":"/resumes/CV - Nikhitha Enugula.pdf"
     
   }
 ]

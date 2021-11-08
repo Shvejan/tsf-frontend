@@ -79,10 +79,14 @@ export function Services(props) {
 
   return (
     <ServicesContainer>
-      <Title>Most used services & More</Title>
+      <Title>Monetize your skills and talents</Title>
+      <br />
       <ServicesWrapper>
         {isServicesEmpty && !isLoading && (
-          <WarningText>No Services are published yet!</WarningText>
+          <WarningText>
+            Upload your profiles, Highlight your skills and abilities
+            <br /> and get hired by the companies
+          </WarningText>
         )}
         {isLoading && <WarningText>Loading...</WarningText>}
         {!isServicesEmpty &&
